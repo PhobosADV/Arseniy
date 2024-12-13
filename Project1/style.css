@@ -1,0 +1,185 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.header .logo {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.header .subtitle {
+    color: #00c618;
+}
+
+.nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.main-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #fff;
+}
+
+.main-image {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.text {
+    flex: 1;
+    margin-left: 30px;
+}
+
+.text h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.section {
+    background-color: #ffffff;
+    padding: 50px;
+    text-align: center;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.card {
+    background-color: #d3d3d3;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Кнопка "Заказать нокаут" */
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.order-button {
+    background-color: #e50914; /* Красный цвет */
+    color: white;
+    font-size: 18px;
+    padding: 15px 40px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.order-button:hover {
+    background-color: #b20710; /* Темно-красный при наведении */
+}
+
+/* Секция с отзывами */
+.reviews-section {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.reviews-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.reviews {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.review {
+    background-color: #ffffff;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.review p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.review span {
+    font-size: 14px;
+    color: #888;
+}
+
+/* Секция подписки */
+.subscribe-section {
+    background-color: #eeeeee;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.subscribe-button {
+    display: inline-block;
+    background-color: #ff5733;
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.subscribe-button:hover {
+    background-color: #cc462a;
+}
+
+/* Дисклеймер */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+.disclaimer-button {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.disclaimer-text {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #888;
+}
